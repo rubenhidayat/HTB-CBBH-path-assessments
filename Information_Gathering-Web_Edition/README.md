@@ -98,7 +98,8 @@ ffuf -u http://inlanefreight.htb:<port> -H "HOST: FUZZ.<subdomain>.inlanefreight
 ```
 
 The new subdomain will be found as shown in the redacted image below: 
-![4](https://github.com/user-attachments/assets/a978be71-2d02-4a35-a718-0b28dde02cd6)
+![4](https://github.com/user-attachments/assets/b3c2ccf1-100a-489e-a80d-1a22add71ec1)
+
 
 Using the new subdomain, start crawling using a tool called ReconSpider, it's a python based crawler that will generate output in a JSON file called `results.JSON`. Use command below :
 ```bash
